@@ -321,6 +321,6 @@ Links
 * https://bsky.app/profile/paulau.dev
 * https://github.com/romansp
 
-<div class="px-4 my-4">
+<div class="px-6 my-4">
 <img src="/qr.png" class="size-40" />
 </div>
