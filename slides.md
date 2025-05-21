@@ -6,6 +6,7 @@ title: Handle frontend version skew with Vite and Vue Router
 
 ## Raman Paulau
 ## Lead Software Engineer at [Axure](https://axure.com)
+[paulau.dev](https://paulau.dev)
 
 ---
 
