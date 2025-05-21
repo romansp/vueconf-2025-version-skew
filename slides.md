@@ -258,7 +258,7 @@ router.onError((error, to) => {
 });
 
 function reloadAppAtPath(to: RouteLocation) {
-  const path = joinURL(import.meta.env.VITE_APP_BASE_SUFFIX, to.fullPath);
+  const path = joinURL(import.meta.env.BASE_URL, to.fullPath);
   window.location.href = path;
 }
 ```
@@ -281,7 +281,7 @@ export function useChunkPreloadErrorHandling() {
   });
 
   function reloadAppAtPath(to: RouteLocation) {
-    const path = joinURL(import.meta.env.VITE_APP_BASE_SUFFIX, to.fullPath);
+    const path = joinURL(import.meta.env.BASE_URL, to.fullPath);
     window.location.href = path;
   }
 }
@@ -318,8 +318,8 @@ layout: default
 Links
 * https://paulau.dev/vueconf-2025-version-skew
 * https://paulau.dev/blog/handle-version-skew-after-new-deployment-with-vite-and-vue-router
-* https://github.com/romansp
 * https://bsky.app/profile/paulau.dev
+* https://github.com/romansp
 
 <div class="px-4 my-4">
 <img src="/qr.png" class="size-40" />
