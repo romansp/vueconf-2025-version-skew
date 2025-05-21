@@ -63,7 +63,7 @@ At the app's we used `<AppErrorBoundary />` component which would capture all un
 
 ---
 layout: image
-image: /image.png
+image: image.png
 backgroundSize: 80%
 ---
 
@@ -192,7 +192,7 @@ layout: center
 
 ---
 layout: image
-image: /12084.png
+image: 12084.png
 backgroundSize: 60%
 ---
 
@@ -321,5 +321,5 @@ Links
 * https://bsky.app/profile/paulau.dev
 
 <div class="px-4 my-4">
-<img src="./qr.png" class="size-40" />
+<img src="/qr.png" class="size-40" />
 </div>
