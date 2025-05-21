@@ -14,17 +14,17 @@ Let's talk about deployments
 
 * Our flagship product Axure RP for creating complex interactive wireframes and prototypes without coding.
 * We also provide companion web application called Axure Cloud which allows to share and collaborate on your prototypes in browser.
-* In 2018 we rewrote front-end on Vue 2 with Vue CLI 
-* And in late 2024 we fully migrated to Vue 3 with Vite.
+* Originally on Vue 2 with Vue CLI 
+* Fully migrated to Vue 3 with Vite in late 2024.
 
 <!--
 Hi everyone! My name is Raman Paulau. Let's talk about deployments.
 
 I'd like to share what I find to be a very elegant solution to how we handle an issue called frontend version skew in our web applications. But before we dive into what frontend version skew is, let me setup some context.
 
-I work for company Axure Software. You may have heard or even used our flagship product Axure RP which allows to create complex interactive prototypes and wireframes without coding. Together with RP we also provide a companion web app Axure Cloud where you can share your prototypes and collaborate with your team in browser.
+I work for company Axure Software. You may have heard or even used our flagship product Axure RP which allows to create complex interactive prototypes and wireframes without coding. Along with RP we  provide a companion web app Axure Cloud where you can share your prototypes and collaborate with your team in browser.
 
-We rewrote Axure Cloud front-end in 2018 on Vue 2 with Vue CLI. And in late 2024 we fully migrated to Vue 3 with Vite.
+Axure Cloud originally on Vue 2 with Vue CLI. And in late 2024 we fully migrated to Vue 3 with Vite.
 -->
 
 ---
@@ -56,9 +56,9 @@ export default Vue.extend({
 </template>
 ```
 
-<!-- So before we migrated Axure Cloud to Vite weaknesses of the app was global error handling.
+<!-- Major weakness of the app before migration was global error handling.
 
-At the root level of the app we used `<AppErrorBoundary />` component which would capture all unhandled promise rejections, window errors and Vue component errors.
+At the app's we used `<AppErrorBoundary />` component which would capture all unhandled promise rejections, window errors and Vue component errors.
 -->
 
 ---
@@ -113,7 +113,7 @@ This problem is referred to as frontend version skew or deployment skew. It happ
 
 ---
 
-# Code-split in Vite and chunks dependency map 
+# Code-split in Vue and Vite chunks map 
 
 ```ts
 // router.ts
